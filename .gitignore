@@ -2,6 +2,9 @@
 config.json
 .env
 
+# Claude Code internal instructions
+CLAUDE.md
+
 # PyInstaller
 dist/
 build/
@@ -18,3 +21,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Claude Code internal instructions
+CLAUDE.md
