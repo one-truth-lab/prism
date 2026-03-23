@@ -79,7 +79,7 @@ class LookupWorker(QThread):
             print(f"[Prism] JSON parse error: {e}")
             self.error_occurred.emit("⚠️ 解析失败，请重试")
         except Exception as e:
-            print(f"[Prism] Unexpected error: {e}")
+            print(f"[Prism] Unexpected error: {type(e).__name__}: {e}")
             self.error_occurred.emit("⚠️ 未能找到该词的结果，请重试")
 
 
