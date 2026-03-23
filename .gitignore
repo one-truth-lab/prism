@@ -1,0 +1,20 @@
+# User config — contains API Key, never commit
+config.json
+.env
+
+# PyInstaller
+dist/
+build/
+*.spec
+installer_output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+
+# OS
+.DS_Store
+Thumbs.db
